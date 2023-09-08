@@ -1,0 +1,126 @@
+ body{background-color: aqua;}   
+.mother{
+   
+    margin: 0 auto;
+
+}
+h2 {text-align:center}
+#typeA {color:rgb(68, 43, 209)}
+.typeB{color:rgb(247, 9, 9)}
+
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.left{display: inline-block;
+width:50%;
+}
+
+.right{display: inline-block;
+width:50%;
+}
+
+.logocontainer{
+    width: 100px;
+    height: 100px;
+
+}
+
+.logo{
+    width: 100%;
+
+}
+
+.menuItem {
+    text-decoration:none;
+    color: inherit;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.menuItem:hover{
+   border-bottom-style:solid ;
+   border-bottom-color: red;
+}
+
+.titleheader{
+    margin-bottom: 50px;
+}
+
+
+.blockelement{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: lightgrey;
+    height: 20px;
+    width: 200px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.inputspan{
+    margin-bottom: 20px;
+}
+.password{
+    margin-bottom: 20px;
+}
+.singin{
+    background-color:rgb(29, 216, 113);
+    border-radius: 24px;
+    border: none;
+    color:white;
+    padding: 2px 20px 0px;
+    font-size: 19px;
+    height: 40px;
+    width: 100px;
+}
+.container{background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotter{
+text-align:center ;
+font-size: 30px;
+margin-top:100 px;
+padding: 50px;
+flex-wrap: wrap;
+
+
+}
+
+.appstortimage{width:20px;height: 20;}
+
+
+@media  (max-width:500px)
+{
+ .menu {display: none;} 
+}
+.menuicon{ display: block;
+   
+}
+.left{ width:auto;
+}
+.right{
+    width:50%;
+
+    margin-left: 200px;
+}
+
+.fotter {margin-top: 30px;
+font-size: 20px;
+padding: 10px;}
+
+.girl {
+    height:400px ;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.serch{
+    width: 500px;
+    }
